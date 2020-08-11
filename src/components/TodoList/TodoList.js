@@ -9,7 +9,9 @@ function TodoList({ todoList, onClickItem }) {
           key={index}
           item={todo.todo}
           isCompleted={todo.isCompleted}
-          onClick={onClickItem}
+          onClick={() => {
+            onClickItem(todo, index);
+          }}
         />
       ))}
     </div>

@@ -8,6 +8,17 @@ import TodoList from "./components/TodoList/TodoList";
 function App() {
   const [todos, setTodos] = useState([]);
 
+  const handleOnClickItem = (item, index) => {
+    setTodos([
+      ...todos.slice(0, index),
+      {
+        ...item,
+        isCompleted: !item.isCompleted,
+      },
+      ...todos.slice(index + 1),
+    ]);
+  };
+
   const handleAddItem = (input) => {
     setTodos([
       ...todos,
@@ -16,9 +27,6 @@ function App() {
         isCompleted: true,
       },
     ]);
-  };
-  const handleOnClickItem = (event) => {
-    console.log(event.target.value);
   };
 
   return (
