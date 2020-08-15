@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
-
+import checkAll from "../../assets/images/checkAll.png";
+import checkAllCompleted from "../../assets/images/checkAllCompleted.png";
 function Header({ addItem }) {
   const [input, setInput] = useState("");
 
@@ -17,13 +18,16 @@ function Header({ addItem }) {
   return (
     <header className="header">
       <h1>To Do List</h1>
-      <input
-        type="text"
-        placeholder="What needs to be done?"
-        value={input}
-        onChange={handleOnChange}
-        onKeyUp={handleSubmit}
-      ></input>
+      <div className="header-input">
+        <img className="checkAllButton" src={checkAll}></img>
+        <input
+          type="text"
+          placeholder="What needs to be done?"
+          value={input}
+          onChange={handleOnChange}
+          onKeyUp={handleSubmit}
+        ></input>
+      </div>
     </header>
   );
 }

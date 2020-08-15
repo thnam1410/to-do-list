@@ -1,7 +1,8 @@
 import React from "react";
 import TodoItem from "./TodoItem";
+import "./TodoList.css";
 
-function TodoList({ todoList, onClickItem }) {
+function TodoList({ todoList, onClickItem, onClickDelete }) {
   return (
     <div className="todolist">
       {todoList.map((todo, index) => (
@@ -11,6 +12,9 @@ function TodoList({ todoList, onClickItem }) {
           isCompleted={todo.isCompleted}
           onClick={() => {
             onClickItem(todo, index);
+          }}
+          onClickDelete={() => {
+            onClickDelete(index);
           }}
         />
       ))}
