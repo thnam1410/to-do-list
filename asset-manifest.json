@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/to-do-list/static/css/main.689394ba.chunk.css",
+    "main.js": "/to-do-list/static/js/main.86b7e71e.chunk.js",
+    "main.js.map": "/to-do-list/static/js/main.86b7e71e.chunk.js.map",
+    "runtime-main.js": "/to-do-list/static/js/runtime-main.65d94b1a.js",
+    "runtime-main.js.map": "/to-do-list/static/js/runtime-main.65d94b1a.js.map",
+    "static/js/2.d3fc5812.chunk.js": "/to-do-list/static/js/2.d3fc5812.chunk.js",
+    "static/js/2.d3fc5812.chunk.js.map": "/to-do-list/static/js/2.d3fc5812.chunk.js.map",
+    "index.html": "/to-do-list/index.html",
+    "precache-manifest.bb5a4266a75da55fe8c296d1a1e57c3f.js": "/to-do-list/precache-manifest.bb5a4266a75da55fe8c296d1a1e57c3f.js",
+    "service-worker.js": "/to-do-list/service-worker.js",
+    "static/css/main.689394ba.chunk.css.map": "/to-do-list/static/css/main.689394ba.chunk.css.map",
+    "static/js/2.d3fc5812.chunk.js.LICENSE.txt": "/to-do-list/static/js/2.d3fc5812.chunk.js.LICENSE.txt",
+    "static/media/completedtick.png": "/to-do-list/static/media/completedtick.f0978157.png",
+    "static/media/tick.png": "/to-do-list/static/media/tick.4e56fff8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65d94b1a.js",
+    "static/js/2.d3fc5812.chunk.js",
+    "static/css/main.689394ba.chunk.css",
+    "static/js/main.86b7e71e.chunk.js"
+  ]
+}
