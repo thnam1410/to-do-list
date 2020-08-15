@@ -9,7 +9,7 @@
   background-color: #fff;
   border: 0.5px solid #ddd;
   border-top: none;
-  box-shadow: -3px -2px 9px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 3px 9px rgba(0, 0, 0, 0.2);
 }
 .buttonDelete-hover {
   opacity: 0.9 !important;
